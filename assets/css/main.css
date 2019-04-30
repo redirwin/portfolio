@@ -206,13 +206,13 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #49bf9d;
+  color: #192f41;
   text-decoration: none;
 }
 
 a:hover {
   border-bottom-color: transparent;
-  color: #49bf9d !important;
+  color: #192f41 !important;
   text-decoration: none;
 }
 
@@ -308,8 +308,12 @@ hr.major {
 blockquote {
   border-left: solid 6px #efefef;
   font-style: italic;
-  margin: 0 0 2em 0;
+  margin: 0 0 2em 20em;
   padding: 0.5em 0 0.5em 1.5em;
+}
+
+div.quote-name {
+  margin: 0.5em 0 1em 3em;
 }
 
 code {
@@ -1935,7 +1939,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #49bf9d;
+  border-color: #192f41;
 }
 
 select {
@@ -2035,7 +2039,7 @@ input[type="radio"]:checked + label:before {
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #49bf9d;
+  border-color: #192f41;
 }
 
 input[type="checkbox"] + label:before {
@@ -2541,8 +2545,10 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  border-color: #192f41;
+  color: #192f41 !important;
+  /* border-color: #49bf9d;
+  color: #49bf9d !important; */
 }
 
 input[type="submit"]:active,
@@ -2550,8 +2556,8 @@ input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
   background-color: rgba(73, 191, 157, 0.1);
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  border-color: #192f41;
+  color: #192f41 !important;
 }
 
 input[type="submit"].icon,
@@ -2594,8 +2600,8 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-  background-color: #49bf9d;
-  border-color: #49bf9d;
+  background-color: #192f41;
+  border-color: #192f41;
   color: #ffffff !important;
 }
 
@@ -2669,7 +2675,8 @@ input[type="button"]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #1f1815;
+  /* background-color: #1f1815; */
+  background-color: black;
   background-attachment: scroll, scroll;
   background-image: url("images/overlay.png"), url("../../images/bg.jpg");
   background-position: top left, top left;
